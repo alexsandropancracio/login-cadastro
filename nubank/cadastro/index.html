@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemaxscreen.css">
+    <link rel="stylesheet" href="styleresponsive.css">
+    <link rel="stylesheet" href="styleresponsivescreen.css">
+    <link rel="shortcut icon" href="../img/nubank-logo.png" type="image/x-icon">
+    
+</head>
+<body>
+
+    <main class="container">
+        
+        <section id="logo">
+        <img src="../img/nubank-logo.png" alt="" class="img">
+        </section>
+        
+        <article class="form-image">
+            <img src="../img/undraw_sign_up_n6im.svg" alt="">
+        </article>
+
+        <article class="form">
+            <form action="#" method="post">
+
+                <section class="form-header">
+
+                    <h1>Cadastre-se</h1>
+
+                    <div class="login-button">
+                        <a href="../login/login.html">Entrar</a>
+
+                </section>
+                
+                <section class="input-group">
+
+                    <div class="input-box">
+                        <label for="firstname">Nome</label>
+                        <input type="text" name="nome" id="firstname" placeholder="Digite seu nome..." onfocus="selectError()"  onblur="verific()">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome..." onfocus="selectError2()">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="" id="email" placeholder="Digite seu e-mail..." onfocus="selectError3()">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input type="password" name="" id="password" placeholder="Digite sua senha..." onfocus="">
+                        
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirmar senha</label>
+                        <input type="password" name="" id="confirmpassword" placeholder="Digite novamente sua senha...">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cellphone">Telefone</label>
+                        <input type="tel" name="#" id="cellphone" placeholder="(xx) xxxxx-xxxx" >
+                    </div>
+
+                </section>
+
+                <section class="input-select">
+
+                    <div class="select-date">
+
+                        <label for="selection-date">Data de Nascimento</label>
+                        <input type="date" name="data" id="selection-date">
+                        
+                    </div>
+
+                  <div class="select-gender">
+
+                        <label for="gender">Gênero</label>
+                        <select name="#" id="gender">
+                            <option value=""></option>
+                        </select>
+                        
+                    </div>
+
+                </section>
+                
+                
+                <section class="button">
+                    <div class="register">
+                    <a href="#" onclick="error(); error1(); error2(); error3(); error4(); error5()">Cadastrar</a>
+                    </div>
+                    
+                </section>
+            
+            </form>
+
+        </article>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

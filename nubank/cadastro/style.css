@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #820AD1;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+    margin-top: 5vh;
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    padding: 1rem;
+}
+
+.form-image > img{
+    width: 100%;
+}
+
+.form{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #fff;
+padding: 3rem;
+}
+
+.form-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    position: relative;
+    top: 15px;
+    font-size: 1.5rem;
+}
+
+.form-header > h1:after{
+    background-color: #820AD1;
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register > a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 1.5rem;
+    background-color: #820AD1;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    top: 18px;
+}
+
+.register > a:hover{
+    background: #ab35fa;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+}
+
+.login-button > a{
+    border: none;
+    background-color: #820AD1;
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+    border-radius: 5px; 
+    text-decoration: none;
+    color: white; 
+    font-size: 15px;
+}
+
+.login-button > a:hover{
+    background-color: #ab35fa;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box > input{
+    margin: 1rem 0;
+    margin-bottom: 0px;
+    padding: 10px;
+    height: 2rem;
+    width: 15vw;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.241);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.122);
+}
+
+.input-box > input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box > input:focus-visible{
+    outline: 1px solid #820AD1;
+}
+
+.input-box > input::placeholder{
+    padding-left: 5px;
+}
+
+.img{
+    position: absolute;
+    left: 27%;
+    top: 14%;
+}
+
+#selection-date{
+    height: 2rem;
+    width: 15vw;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.241);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.122);
+    margin: 1rem 0;
+    padding-left: 15px;
+}
+
+.select-date{
+    display: flex;
+    flex-direction: column;
+}
+
+.select-date > input:focus-visible{
+    outline: 1px solid #820AD1;
+}
+
+.select-gender{   
+    display: flex;
+    flex-direction: column;
+    width: 48%; 
+}
+
+#gender{
+    margin: 1rem 0;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    height: 2rem;
+    width: 15vw;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.241);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.122);
+}
+
+.select-gender > select:focus-visible{
+    outline: 1px solid #820AD1;
+}
+
+.input-select{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    bottom: 3%;
+    left: 12px;
+    width: 96%;
+}
+
+.select-date > input:hover{
+    background-color: #eeeeee75;
+}
+
+.select-gender > select:hover{
+    background-color: #eeeeee75;
+}
+
+#logo > img{
+    width: 100px;
+}
+

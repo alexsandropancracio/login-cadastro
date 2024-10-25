@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #820AD1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#register{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#register > div{
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin: 20px;
+   width: 90%;
+}
+
+#register > img{
+    width: 110px;
+    display: flex;
+    position: relative;
+    top: 25px;
+}
+
+#register > .txt{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 25px;
+}
+
+.security{
+    margin-top: 10px;
+    color: #820AD1;
+}
+
+.input-box{
+    display: flex;
+    position: relative;
+    top: 15px;
+}
+
+.input-box > input{
+    padding-left: 10px;
+    margin-bottom: 1.5rem;
+    margin-top: 5px;
+    height: 2rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-box > input:focus-visible{
+    outline: 1px solid #ab35fa;
+}
+
+.image{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 295px;
+    bottom: 50px;
+    opacity: 0.7;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+}
+
+.login > a{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #820AD1;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 15px;
+}
+
+.login > p{
+    display: flex;
+    position: relative;
+}
+
+.login > p > a{
+    margin-left: 4px;
+    margin-right: 4px;
+    
+    color: #820AD1;
+}
+
+.login > a:hover{
+    background-color: #ab35fa;
+}
+
+.remember{
+    gap: 5px;
+    display: flex;   
+}
+
+.alright{
+    display: flex;
+    position: relative;
+    bottom: 55px;
+}
